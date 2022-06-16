@@ -2,6 +2,7 @@ import Vue from 'vue'
 import VueRouter from 'vue-router'
 import Home from '../views/Home.vue'
 import Animation from '../views/Animation.vue'
+import MozartView from '../views/MozartView.vue'
 
 Vue.use(VueRouter)
 
@@ -23,6 +24,11 @@ const routes = [
     path: '/animation',
     name: 'animation',
     component: Animation
+  },
+  {
+    path: '/mozart',
+    name: 'mozart',
+    component: MozartView
   }
 ]
 
